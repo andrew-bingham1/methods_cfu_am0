@@ -39,7 +39,7 @@ def square(num)
     num ** 2
 end 
 
-square(5)
+p square(5)
 
 
 # What is the return value of your method?
@@ -56,7 +56,7 @@ square(5)
 
 
 def combine_names(first,middle,last)
-    combined_name = first + " " + middle + " " + last
+    combined_name = "#{first} #{middle} #{last}"
     p combined_name
 end
 combine_names("Andrew","Gates","Bingham")
